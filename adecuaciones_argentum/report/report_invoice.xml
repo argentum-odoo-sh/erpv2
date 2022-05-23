@@ -68,7 +68,7 @@
         </xpath>
     </template>
 
-    <record id="account_invoices_without_payment" model="ir.actions.report">
+    <record id="account.account_invoices_without_payment" model="ir.actions.report">
             <field name="name">Invoices without Payment</field>
             <field name="model">account.move</field>
             <field name="report_type">qweb-html</field>
